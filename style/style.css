@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+html {
+  box-sizing: border-box;
+  text-align: center;
+  margin: auto;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+.container {
+  display: flex;
+  width: 450px;
+  margin: auto;
+  margin-top: 5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: khaki;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 1rem 0.5rem;
+}
+
+.sobreposicao {
+  background-color: rgb(230, 211, 48);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+h1 {
+  margin-bottom: 10px;
+  background-color: khaki;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+form {
+  text-align: left;
+  line-height: 2rem;
+}
+
+label {
+  font-size: 25px;
+}
+
+input {
+  width: 5rem;
+  display: flex;
+  background-color: white;
+  border: none;
+  padding: 0.2rem;
+  margin: .5rem 0;
+  border-radius: 5px;
+  color: black;
+  font-size: 18px;
+  text-align: center;
+}
+button {
+  padding: 1rem;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 2rem;
+  background-color: black;
+  color: yellow;
+  cursor: pointer;
+  outline: 0px auto -webkit-focus-ring-color;
+}
+
+button:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.display {
+  max-width: 350px;
+  height: 10rem;
+  background-color: yellow;
+  margin-top: 1rem;
+  text-align: left;
+  overflow: hidden;
+}
+
+.resposta {
+  padding: 1rem;
+  font-size: 18px;
+  background-color: yellow;
+}
